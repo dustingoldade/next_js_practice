@@ -1,0 +1,14 @@
+Use layouts at the top of a page to render items without triggering a rerender when children of that compoennt are updated via routes. 
+
+Use <link> to ensure that new links do not trigger a full reload but just trigger an update of state... but also do not rerender the 
+parent layout compoennt
+
+children layout is basicailly a wrapper for everything in that directory
+
+Use the Font file in the UI folder to import fonts into the app... This will prevent shifing when rendering the page. 
+
+anything that requires a react hook, requires the component to use "use client" as it's rendered on the client side. 
+
+to get the current url, you can use usePathname()
+
+
